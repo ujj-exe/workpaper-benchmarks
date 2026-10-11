@@ -1,0 +1,118 @@
+# Runner location (ipinfo.io from the GitHub Actions runner)
+city: San Antonio, region: Texas
+
+# Harness output, verbatim (GitHub Actions run 38149863688, 2026-10-11)
+2026-10-11T15:06:39.3842206Z Sandbox TTI (Burst) (self-contained)
+2026-10-11T15:06:39.3855844Z Date: 2026-10-11T15:06:39.384Z
+2026-10-11T15:06:39.3899833Z Dry run: no platform ingest or reporting.
+2026-10-11T15:06:39.3900439Z 
+2026-10-11T15:06:39.3926864Z Knobs: iterations=100, concurrency=100, staggerDelayMs=0, groupBy=participant
+2026-10-11T15:06:39.3927219Z 
+2026-10-11T15:06:39.3927398Z ======================================================================
+2026-10-11T15:06:39.3927691Z   Participant: workpaper
+2026-10-11T15:06:39.3928002Z ======================================================================
+2026-10-11T15:06:40.4635568Z   [workpaper] Task 78/100: success {"ttiMs":737.1079439999996}
+2026-10-11T15:06:40.4687295Z   [workpaper] Task 74/100: success {"ttiMs":713.9840110000002}
+2026-10-11T15:06:40.4725485Z   [workpaper] Task 15/100: success {"ttiMs":687.79169}
+2026-10-11T15:06:40.4782713Z   [workpaper] Task 35/100: success {"ttiMs":752.422221}
+2026-10-11T15:06:40.4822481Z   [workpaper] Task 94/100: success {"ttiMs":725.9397360000003}
+2026-10-11T15:06:40.4879219Z   [workpaper] Task 55/100: success {"ttiMs":780.2317290000003}
+2026-10-11T15:06:40.4909128Z   [workpaper] Task 75/100: success {"ttiMs":738.0281500000001}
+2026-10-11T15:06:40.4922064Z   [workpaper] Task 1/100: success {"ttiMs":661.0890669999999}
+2026-10-11T15:06:40.4941349Z   [workpaper] Task 70/100: success {"ttiMs":726.9207019999999}
+2026-10-11T15:06:40.4989183Z   [workpaper] Task 47/100: success {"ttiMs":690.3971649999999}
+2026-10-11T15:06:40.5000239Z   [workpaper] Task 95/100: success {"ttiMs":682.4394380000001}
+2026-10-11T15:06:40.5027690Z   [workpaper] Task 8/100: success {"ttiMs":724.1559899999997}
+2026-10-11T15:06:40.5037573Z   [workpaper] Task 76/100: success {"ttiMs":725.4503439999999}
+2026-10-11T15:06:40.5335197Z   [workpaper] Task 27/100: success {"ttiMs":712.1577710000001}
+2026-10-11T15:06:40.5369584Z   [workpaper] Task 34/100: success {"ttiMs":743.6114780000005}
+2026-10-11T15:06:40.5562068Z   [workpaper] Task 52/100: success {"ttiMs":787.1246350000001}
+2026-10-11T15:06:40.5599553Z   [workpaper] Task 24/100: success {"ttiMs":860.0686450000001}
+2026-10-11T15:06:40.5605549Z   [workpaper] Task 43/100: success {"ttiMs":781.566356}
+2026-10-11T15:06:40.5792726Z   [workpaper] Task 61/100: success {"ttiMs":861.2699910000003}
+2026-10-11T15:06:40.5924554Z   [workpaper] Task 21/100: success {"ttiMs":863.2646740000002}
+2026-10-11T15:06:40.5927247Z   [workpaper] Task 58/100: success {"ttiMs":847.6131930000004}
+2026-10-11T15:06:40.5931746Z   [workpaper] Task 85/100: success {"ttiMs":883.392186}
+2026-10-11T15:06:40.6078235Z   [workpaper] Task 68/100: success {"ttiMs":877.2781650000002}
+2026-10-11T15:06:40.6105879Z   [workpaper] Task 96/100: success {"ttiMs":734.6383319999995}
+2026-10-11T15:06:40.6153270Z   [workpaper] Task 45/100: success {"ttiMs":868.7506860000001}
+2026-10-11T15:06:40.6241714Z   [workpaper] Task 31/100: success {"ttiMs":875.206899}
+2026-10-11T15:06:40.6278952Z   [workpaper] Task 51/100: success {"ttiMs":890.3469539999999}
+2026-10-11T15:06:40.6279440Z   [workpaper] Task 30/100: success {"ttiMs":869.9310599999994}
+2026-10-11T15:06:40.6297694Z   [workpaper] Task 54/100: success {"ttiMs":862.3118790000003}
+2026-10-11T15:06:40.6472251Z   [workpaper] Task 32/100: success {"ttiMs":887.0181079999995}
+2026-10-11T15:06:40.6498551Z   [workpaper] Task 100/100: success {"ttiMs":884.4666820000002}
+2026-10-11T15:06:40.6637901Z   [workpaper] Task 5/100: success {"ttiMs":900.1058150000003}
+2026-10-11T15:06:40.6641725Z   [workpaper] Task 41/100: success {"ttiMs":895.0085939999999}
+2026-10-11T15:06:40.6719583Z   [workpaper] Task 87/100: success {"ttiMs":885.6619500000002}
+2026-10-11T15:06:40.6753152Z   [workpaper] Task 63/100: success {"ttiMs":950.1932619999998}
+2026-10-11T15:06:40.6833596Z   [workpaper] Task 22/100: success {"ttiMs":955.5142769999998}
+2026-10-11T15:06:40.6895424Z   [workpaper] Task 86/100: success {"ttiMs":890.9374769999997}
+2026-10-11T15:06:40.6921202Z   [workpaper] Task 73/100: success {"ttiMs":955.9139439999999}
+2026-10-11T15:06:40.6939208Z   [workpaper] Task 37/100: success {"ttiMs":952.4784880000002}
+2026-10-11T15:06:40.6939659Z   [workpaper] Task 82/100: success {"ttiMs":895.7815110000001}
+2026-10-11T15:06:40.6939996Z   [workpaper] Task 36/100: success {"ttiMs":967.5154300000002}
+2026-10-11T15:06:40.6945403Z   [workpaper] Task 42/100: success {"ttiMs":897.769843}
+2026-10-11T15:06:40.6960119Z   [workpaper] Task 25/100: success {"ttiMs":972.9351430000002}
+2026-10-11T15:06:40.6995083Z   [workpaper] Task 3/100: success {"ttiMs":976.6320409999998}
+2026-10-11T15:06:40.6996466Z   [workpaper] Task 92/100: success {"ttiMs":966.2439790000003}
+2026-10-11T15:06:40.7118054Z   [workpaper] Task 90/100: success {"ttiMs":971.121441}
+2026-10-11T15:06:40.7153791Z   [workpaper] Task 72/100: success {"ttiMs":981.837794}
+2026-10-11T15:06:40.7192141Z   [workpaper] Task 98/100: success {"ttiMs":965.3527470000004}
+2026-10-11T15:06:40.7195858Z   [workpaper] Task 2/100: success {"ttiMs":961.0602290000002}
+2026-10-11T15:06:40.7232492Z   [workpaper] Task 66/100: success {"ttiMs":724.7122120000006}
+2026-10-11T15:06:40.7255483Z   [workpaper] Task 60/100: success {"ttiMs":896.925851}
+2026-10-11T15:06:40.7260483Z   [workpaper] Task 9/100: success {"ttiMs":965.6691400000004}
+2026-10-11T15:06:40.7263693Z   [workpaper] Task 59/100: success {"ttiMs":976.7279939999999}
+2026-10-11T15:06:40.7287557Z   [workpaper] Task 17/100: success {"ttiMs":1003.5723499999997}
+2026-10-11T15:06:40.7305238Z   [workpaper] Task 99/100: success {"ttiMs":987.4792990000003}
+2026-10-11T15:06:40.7308283Z   [workpaper] Task 12/100: success {"ttiMs":974.6105879999998}
+2026-10-11T15:06:40.7334541Z   [workpaper] Task 62/100: success {"ttiMs":969.4882599999999}
+2026-10-11T15:06:40.7380694Z   [workpaper] Task 19/100: success {"ttiMs":993.370095}
+2026-10-11T15:06:40.7384649Z   [workpaper] Task 93/100: success {"ttiMs":728.6107899999997}
+2026-10-11T15:06:40.7558431Z   [workpaper] Task 49/100: success {"ttiMs":994.4615790000005}
+2026-10-11T15:06:40.7559633Z   [workpaper] Task 39/100: success {"ttiMs":987.1505180000001}
+2026-10-11T15:06:40.7561043Z   [workpaper] Task 6/100: success {"ttiMs":998.694587}
+2026-10-11T15:06:40.7561724Z   [workpaper] Task 67/100: success {"ttiMs":973.2949409999997}
+2026-10-11T15:06:40.7562258Z   [workpaper] Task 11/100: success {"ttiMs":985.0443390000003}
+2026-10-11T15:06:40.7563492Z   [workpaper] Task 71/100: success {"ttiMs":963.728368}
+2026-10-11T15:06:40.7576701Z   [workpaper] Task 50/100: success {"ttiMs":990.5476259999998}
+2026-10-11T15:06:40.7602220Z   [workpaper] Task 57/100: success {"ttiMs":970.777347}
+2026-10-11T15:06:40.7607770Z   [workpaper] Task 81/100: success {"ttiMs":993.621823}
+2026-10-11T15:06:40.7635565Z   [workpaper] Task 83/100: success {"ttiMs":1001.2487060000001}
+2026-10-11T15:06:40.7648794Z   [workpaper] Task 69/100: success {"ttiMs":978.1372409999999}
+2026-10-11T15:06:40.7654260Z   [workpaper] Task 16/100: success {"ttiMs":684.763633}
+2026-10-11T15:06:40.7663313Z   [workpaper] Task 80/100: success {"ttiMs":981.1508279999998}
+2026-10-11T15:06:40.7665313Z   [workpaper] Task 88/100: success {"ttiMs":977.49432}
+2026-10-11T15:06:40.7694593Z   [workpaper] Task 26/100: success {"ttiMs":739.2003319999999}
+2026-10-11T15:06:40.7727506Z   [workpaper] Task 89/100: success {"ttiMs":985.970202}
+2026-10-11T15:06:40.7737871Z   [workpaper] Task 10/100: success {"ttiMs":975.3012310000001}
+2026-10-11T15:06:40.7762812Z   [workpaper] Task 46/100: success {"ttiMs":1002.5123350000001}
+2026-10-11T15:06:40.7768634Z   [workpaper] Task 97/100: success {"ttiMs":998.6891990000001}
+2026-10-11T15:06:40.7806189Z   [workpaper] Task 23/100: success {"ttiMs":989.6792180000002}
+2026-10-11T15:06:40.7808186Z   [workpaper] Task 38/100: success {"ttiMs":988.7134040000003}
+2026-10-11T15:06:40.7813602Z   [workpaper] Task 48/100: success {"ttiMs":1003.9979159999996}
+2026-10-11T15:06:40.7834745Z   [workpaper] Task 77/100: success {"ttiMs":1049.6817589999998}
+2026-10-11T15:06:40.7928579Z   [workpaper] Task 4/100: success {"ttiMs":1005.6467909999999}
+2026-10-11T15:06:40.8026050Z   [workpaper] Task 56/100: success {"ttiMs":685.6746260000002}
+2026-10-11T15:06:40.8073753Z   [workpaper] Task 14/100: success {"ttiMs":986.1722340000001}
+2026-10-11T15:06:40.8078723Z   [workpaper] Task 84/100: success {"ttiMs":782.2814740000003}
+2026-10-11T15:06:40.8122226Z   [workpaper] Task 53/100: success {"ttiMs":996.3060459999997}
+2026-10-11T15:06:40.8288945Z   [workpaper] Task 44/100: success {"ttiMs":783.7288980000003}
+2026-10-11T15:06:40.8459692Z   [workpaper] Task 79/100: success {"ttiMs":863.9420749999999}
+2026-10-11T15:06:40.8462465Z   [workpaper] Task 18/100: success {"ttiMs":982.9670930000002}
+2026-10-11T15:06:40.8574461Z   [workpaper] Task 28/100: success {"ttiMs":876.2553759999996}
+2026-10-11T15:06:40.8776638Z   [workpaper] Task 13/100: success {"ttiMs":1103.4177099999997}
+2026-10-11T15:06:40.9538352Z   [workpaper] Task 33/100: success {"ttiMs":949.0181949999999}
+2026-10-11T15:06:40.9540291Z   [workpaper] Task 65/100: success {"ttiMs":951.1145489999997}
+2026-10-11T15:06:40.9739120Z   [workpaper] Task 91/100: success {"ttiMs":994.7559380000005}
+2026-10-11T15:06:40.9772470Z   [workpaper] Task 29/100: success {"ttiMs":959.7665749999999}
+2026-10-11T15:06:40.9869786Z   [workpaper] Task 7/100: success {"ttiMs":969.313238}
+2026-10-11T15:06:41.0057629Z   [workpaper] Task 40/100: success {"ttiMs":985.2174469999998}
+2026-10-11T15:06:41.0099780Z   [workpaper] Task 20/100: success {"ttiMs":970.5092159999997}
+2026-10-11T15:06:41.0144511Z   [workpaper] Task 64/100: success {"ttiMs":1000.5603269999997}
+2026-10-11T15:06:41.0154410Z   Done: 100/100 succeeded.
+2026-10-11T15:06:41.0154713Z 
+2026-10-11T15:06:41.0155014Z All done. No platform run created.
+2026-10-11T15:06:41.0166423Z Results written to /home/runner/work/wp-computesdk-run/wp-computesdk-run/results/burst_tti/2026-10-11.json
+2026-10-11T15:06:41.0241642Z Copied latest: /home/runner/work/wp-computesdk-run/wp-computesdk-run/results/burst_tti/latest.json
