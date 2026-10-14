@@ -1,0 +1,2445 @@
+{
+  "runId": "workpaper-20261013",
+  "updatedAt": "2026-10-13T23:25:20.318Z",
+  "completed": 56,
+  "planned": 56,
+  "complete": true,
+  "referenceRun": "37073680030",
+  "referenceDate": "3 October 2026",
+  "sourceCommit": "7fbfde1df75694b91e16018f1326d534a9d60288",
+  "suites": [
+    {
+      "id": "memory",
+      "planned": 3,
+      "completed": 3
+    },
+    {
+      "id": "cpu-node",
+      "planned": 5,
+      "completed": 5
+    },
+    {
+      "id": "disk",
+      "planned": 3,
+      "completed": 3
+    },
+    {
+      "id": "network",
+      "planned": 3,
+      "completed": 3
+    },
+    {
+      "id": "system",
+      "planned": 3,
+      "completed": 3
+    },
+    {
+      "id": "pgbench",
+      "planned": 3,
+      "completed": 3
+    },
+    {
+      "id": "realworld-better-auth",
+      "planned": 12,
+      "completed": 12
+    },
+    {
+      "id": "realworld-mastra",
+      "planned": 12,
+      "completed": 12
+    },
+    {
+      "id": "realworld-openclaw",
+      "planned": 12,
+      "completed": 12
+    }
+  ],
+  "pipelines": [
+    {
+      "id": "better-auth",
+      "name": "Better-Auth",
+      "completed": 12,
+      "planned": 12,
+      "rows": [
+        {
+          "provider": "brezel",
+          "name": "Brezel",
+          "computeMatched": true,
+          "total": 118.13549999999998,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 1.9115
+            },
+            {
+              "label": "Install",
+              "value": 8.094
+            },
+            {
+              "label": "Build",
+              "value": 42.227999999999994
+            },
+            {
+              "label": "Checks",
+              "value": 65.90199999999999
+            }
+          ]
+        },
+        {
+          "provider": "boat",
+          "name": "boat",
+          "computeMatched": true,
+          "total": 135.84799999999998,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 1.702
+            },
+            {
+              "label": "Install",
+              "value": 13.6535
+            },
+            {
+              "label": "Build",
+              "value": 47.7185
+            },
+            {
+              "label": "Checks",
+              "value": 72.774
+            }
+          ]
+        },
+        {
+          "provider": "workpaper",
+          "name": "Workpaper",
+          "computeMatched": true,
+          "total": 147.64950000000002,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 2.2655000000000003
+            },
+            {
+              "label": "Install",
+              "value": 12.712
+            },
+            {
+              "label": "Build",
+              "value": 50.061
+            },
+            {
+              "label": "Checks",
+              "value": 82.61099999999999
+            }
+          ]
+        },
+        {
+          "provider": "namespace",
+          "name": "Namespace",
+          "computeMatched": true,
+          "total": 150.5145,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 0.573
+            },
+            {
+              "label": "Install",
+              "value": 10.216999999999999
+            },
+            {
+              "label": "Build",
+              "value": 53.2025
+            },
+            {
+              "label": "Checks",
+              "value": 86.522
+            }
+          ]
+        },
+        {
+          "provider": "daytona-vm",
+          "name": "Daytona VM",
+          "computeMatched": true,
+          "total": 156.608,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 1.358
+            },
+            {
+              "label": "Install",
+              "value": 11.1975
+            },
+            {
+              "label": "Build",
+              "value": 55.7045
+            },
+            {
+              "label": "Checks",
+              "value": 88.34800000000001
+            }
+          ]
+        },
+        {
+          "provider": "modal-vm",
+          "name": "Modal VM",
+          "computeMatched": true,
+          "total": 180.75150000000002,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 1.7925
+            },
+            {
+              "label": "Install",
+              "value": 18.0395
+            },
+            {
+              "label": "Build",
+              "value": 62.9595
+            },
+            {
+              "label": "Checks",
+              "value": 97.96000000000001
+            }
+          ]
+        },
+        {
+          "provider": "novita",
+          "name": "Novita",
+          "computeMatched": true,
+          "total": 181.9475,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 1.9449999999999998
+            },
+            {
+              "label": "Install",
+              "value": 12.8935
+            },
+            {
+              "label": "Build",
+              "value": 65.019
+            },
+            {
+              "label": "Checks",
+              "value": 102.09
+            }
+          ]
+        },
+        {
+          "provider": "microsandbox-cloud",
+          "name": "Microsandbox",
+          "computeMatched": true,
+          "total": 189.3575,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 1.0885
+            },
+            {
+              "label": "Install",
+              "value": 14.632000000000001
+            },
+            {
+              "label": "Build",
+              "value": 67.8385
+            },
+            {
+              "label": "Checks",
+              "value": 105.7985
+            }
+          ]
+        },
+        {
+          "provider": "blaxel",
+          "name": "Blaxel",
+          "computeMatched": true,
+          "total": 198.67749999999998,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 0.7355
+            },
+            {
+              "label": "Install",
+              "value": 13.408999999999999
+            },
+            {
+              "label": "Build",
+              "value": 71.2345
+            },
+            {
+              "label": "Checks",
+              "value": 113.29849999999999
+            }
+          ]
+        },
+        {
+          "provider": "tama",
+          "name": "tama",
+          "computeMatched": false,
+          "total": 220.58599999999996,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 1.0070000000000001
+            },
+            {
+              "label": "Install",
+              "value": 18.552
+            },
+            {
+              "label": "Build",
+              "value": 75.89150000000001
+            },
+            {
+              "label": "Checks",
+              "value": 125.1355
+            }
+          ]
+        },
+        {
+          "provider": "vercel",
+          "name": "Vercel",
+          "computeMatched": true,
+          "total": 266.337,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 0.8115
+            },
+            {
+              "label": "Install",
+              "value": 20.2365
+            },
+            {
+              "label": "Build",
+              "value": 92.6635
+            },
+            {
+              "label": "Checks",
+              "value": 152.6255
+            }
+          ]
+        },
+        {
+          "provider": "e2b",
+          "name": "E2B",
+          "computeMatched": true,
+          "total": 295.388,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 1.48
+            },
+            {
+              "label": "Install",
+              "value": 20.0855
+            },
+            {
+              "label": "Build",
+              "value": 100.1385
+            },
+            {
+              "label": "Checks",
+              "value": 173.684
+            }
+          ]
+        },
+        {
+          "provider": "modal-gvisor",
+          "name": "Modal gVisor",
+          "computeMatched": true,
+          "total": 326.8335,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 1.4525000000000001
+            },
+            {
+              "label": "Install",
+              "value": 25.311
+            },
+            {
+              "label": "Build",
+              "value": 100.178
+            },
+            {
+              "label": "Checks",
+              "value": 199.892
+            }
+          ]
+        },
+        {
+          "provider": "freestyle",
+          "name": "Freestyle",
+          "computeMatched": true,
+          "total": 351.2495,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 11.8005
+            },
+            {
+              "label": "Install",
+              "value": 38.158
+            },
+            {
+              "label": "Build",
+              "value": 113.90899999999999
+            },
+            {
+              "label": "Checks",
+              "value": 187.382
+            }
+          ]
+        },
+        {
+          "provider": "runcloud",
+          "name": "run.cloud",
+          "computeMatched": true,
+          "total": 366.0135,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 3.218
+            },
+            {
+              "label": "Install",
+              "value": 32.0115
+            },
+            {
+              "label": "Build",
+              "value": 120.3985
+            },
+            {
+              "label": "Checks",
+              "value": 210.38549999999998
+            }
+          ]
+        },
+        {
+          "provider": "runloop",
+          "name": "Runloop",
+          "computeMatched": true,
+          "total": 559.573,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 2.371
+            },
+            {
+              "label": "Install",
+              "value": 29.7975
+            },
+            {
+              "label": "Build",
+              "value": 208.6275
+            },
+            {
+              "label": "Checks",
+              "value": 318.777
+            }
+          ]
+        }
+      ],
+      "complete": true,
+      "rank": 3
+    },
+    {
+      "id": "mastra",
+      "name": "Mastra",
+      "completed": 12,
+      "planned": 12,
+      "rows": [
+        {
+          "provider": "brezel",
+          "name": "Brezel",
+          "computeMatched": true,
+          "total": 937.634,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 4.423
+            },
+            {
+              "label": "Install",
+              "value": 52.8055
+            },
+            {
+              "label": "Build",
+              "value": 50.631
+            },
+            {
+              "label": "Checks",
+              "value": 829.7745
+            }
+          ]
+        },
+        {
+          "provider": "boat",
+          "name": "boat",
+          "computeMatched": true,
+          "total": 980.012,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 3.487
+            },
+            {
+              "label": "Install",
+              "value": 44.346500000000006
+            },
+            {
+              "label": "Build",
+              "value": 57.2915
+            },
+            {
+              "label": "Checks",
+              "value": 874.887
+            }
+          ]
+        },
+        {
+          "provider": "namespace",
+          "name": "Namespace",
+          "computeMatched": true,
+          "total": 1050.5520000000001,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 2.0934999999999997
+            },
+            {
+              "label": "Install",
+              "value": 37.185
+            },
+            {
+              "label": "Build",
+              "value": 59.2755
+            },
+            {
+              "label": "Checks",
+              "value": 951.998
+            }
+          ]
+        },
+        {
+          "provider": "workpaper",
+          "name": "Workpaper",
+          "computeMatched": true,
+          "total": 1067.5705,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 5.1065000000000005
+            },
+            {
+              "label": "Install",
+              "value": 37.715
+            },
+            {
+              "label": "Build",
+              "value": 63.0215
+            },
+            {
+              "label": "Checks",
+              "value": 961.7275
+            }
+          ]
+        },
+        {
+          "provider": "daytona-vm",
+          "name": "Daytona VM",
+          "computeMatched": true,
+          "total": 1112.308,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 2.1029999999999998
+            },
+            {
+              "label": "Install",
+              "value": 39.323
+            },
+            {
+              "label": "Build",
+              "value": 68.589
+            },
+            {
+              "label": "Checks",
+              "value": 1002.293
+            }
+          ]
+        },
+        {
+          "provider": "microsandbox-cloud",
+          "name": "Microsandbox",
+          "computeMatched": true,
+          "total": 1177.76,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 2.139
+            },
+            {
+              "label": "Install",
+              "value": 47.881
+            },
+            {
+              "label": "Build",
+              "value": 78.98
+            },
+            {
+              "label": "Checks",
+              "value": 1048.76
+            }
+          ]
+        },
+        {
+          "provider": "modal-vm",
+          "name": "Modal VM",
+          "computeMatched": true,
+          "total": 1205.4605,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 2.551
+            },
+            {
+              "label": "Install",
+              "value": 46.4245
+            },
+            {
+              "label": "Build",
+              "value": 77.203
+            },
+            {
+              "label": "Checks",
+              "value": 1079.282
+            }
+          ]
+        },
+        {
+          "provider": "novita",
+          "name": "Novita",
+          "computeMatched": true,
+          "total": 1231.7005000000001,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 3.584
+            },
+            {
+              "label": "Install",
+              "value": 45.577
+            },
+            {
+              "label": "Build",
+              "value": 76.2475
+            },
+            {
+              "label": "Checks",
+              "value": 1106.2920000000001
+            }
+          ]
+        },
+        {
+          "provider": "blaxel",
+          "name": "Blaxel",
+          "computeMatched": true,
+          "total": 1237.299,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 2.41
+            },
+            {
+              "label": "Install",
+              "value": 41.9715
+            },
+            {
+              "label": "Build",
+              "value": 82.624
+            },
+            {
+              "label": "Checks",
+              "value": 1110.2935
+            }
+          ]
+        },
+        {
+          "provider": "tama",
+          "name": "tama",
+          "computeMatched": false,
+          "total": 1453.5059999999999,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 2.743
+            },
+            {
+              "label": "Install",
+              "value": 76.3835
+            },
+            {
+              "label": "Build",
+              "value": 95.673
+            },
+            {
+              "label": "Checks",
+              "value": 1278.7064999999998
+            }
+          ]
+        },
+        {
+          "provider": "vercel",
+          "name": "Vercel",
+          "computeMatched": true,
+          "total": 1589.1779999999999,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 2.393
+            },
+            {
+              "label": "Install",
+              "value": 58.948499999999996
+            },
+            {
+              "label": "Build",
+              "value": 112.315
+            },
+            {
+              "label": "Checks",
+              "value": 1415.5214999999998
+            }
+          ]
+        },
+        {
+          "provider": "modal-gvisor",
+          "name": "Modal gVisor",
+          "computeMatched": true,
+          "total": 1767.4750000000001,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 3.746
+            },
+            {
+              "label": "Install",
+              "value": 70.873
+            },
+            {
+              "label": "Build",
+              "value": 128.334
+            },
+            {
+              "label": "Checks",
+              "value": 1564.5220000000002
+            }
+          ]
+        },
+        {
+          "provider": "e2b",
+          "name": "E2B",
+          "computeMatched": true,
+          "total": 1787.499,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 3.6399999999999997
+            },
+            {
+              "label": "Install",
+              "value": 72.90299999999999
+            },
+            {
+              "label": "Build",
+              "value": 127.1685
+            },
+            {
+              "label": "Checks",
+              "value": 1583.7875
+            }
+          ]
+        },
+        {
+          "provider": "freestyle",
+          "name": "Freestyle",
+          "computeMatched": true,
+          "total": 1916.499,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 12.11
+            },
+            {
+              "label": "Install",
+              "value": 93.8275
+            },
+            {
+              "label": "Build",
+              "value": 138.975
+            },
+            {
+              "label": "Checks",
+              "value": 1671.5865
+            }
+          ]
+        },
+        {
+          "provider": "runcloud",
+          "name": "run.cloud",
+          "computeMatched": true,
+          "total": 2131.8865,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 6.959
+            },
+            {
+              "label": "Install",
+              "value": 148.0775
+            },
+            {
+              "label": "Build",
+              "value": 138.18
+            },
+            {
+              "label": "Checks",
+              "value": 1838.67
+            }
+          ]
+        },
+        {
+          "provider": "runloop",
+          "name": "Runloop",
+          "computeMatched": true,
+          "total": 2343.1875,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 7.6075
+            },
+            {
+              "label": "Install",
+              "value": 105.59700000000001
+            },
+            {
+              "label": "Build",
+              "value": 191.394
+            },
+            {
+              "label": "Checks",
+              "value": 2038.5890000000002
+            }
+          ]
+        }
+      ],
+      "complete": true,
+      "rank": 4
+    },
+    {
+      "id": "openclaw",
+      "name": "OpenClaw",
+      "completed": 12,
+      "planned": 12,
+      "rows": [
+        {
+          "provider": "brezel",
+          "name": "Brezel",
+          "computeMatched": true,
+          "total": 380.247,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 8.658
+            },
+            {
+              "label": "Install",
+              "value": 9.103
+            },
+            {
+              "label": "Build",
+              "value": 0
+            },
+            {
+              "label": "Checks",
+              "value": 362.486
+            }
+          ]
+        },
+        {
+          "provider": "boat",
+          "name": "boat",
+          "computeMatched": true,
+          "total": 428.03099999999995,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 4.5184999999999995
+            },
+            {
+              "label": "Install",
+              "value": 17.6955
+            },
+            {
+              "label": "Build",
+              "value": 0
+            },
+            {
+              "label": "Checks",
+              "value": 405.817
+            }
+          ]
+        },
+        {
+          "provider": "workpaper",
+          "name": "Workpaper",
+          "computeMatched": true,
+          "total": 485.496,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 9.307500000000001
+            },
+            {
+              "label": "Install",
+              "value": 17.553
+            },
+            {
+              "label": "Build",
+              "value": 0
+            },
+            {
+              "label": "Checks",
+              "value": 458.6355
+            }
+          ]
+        },
+        {
+          "provider": "namespace",
+          "name": "Namespace",
+          "computeMatched": true,
+          "total": 569.9745,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 2.255
+            },
+            {
+              "label": "Install",
+              "value": 10.661000000000001
+            },
+            {
+              "label": "Build",
+              "value": 0
+            },
+            {
+              "label": "Checks",
+              "value": 557.0585
+            }
+          ]
+        },
+        {
+          "provider": "daytona-vm",
+          "name": "Daytona VM",
+          "computeMatched": true,
+          "total": 570.916,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 4.952
+            },
+            {
+              "label": "Install",
+              "value": 12.47
+            },
+            {
+              "label": "Build",
+              "value": 0
+            },
+            {
+              "label": "Checks",
+              "value": 553.494
+            }
+          ]
+        },
+        {
+          "provider": "microsandbox-cloud",
+          "name": "Microsandbox",
+          "computeMatched": true,
+          "total": 584.135,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 3.2685000000000004
+            },
+            {
+              "label": "Install",
+              "value": 17.332
+            },
+            {
+              "label": "Build",
+              "value": 0
+            },
+            {
+              "label": "Checks",
+              "value": 563.5345
+            }
+          ]
+        },
+        {
+          "provider": "blaxel",
+          "name": "Blaxel",
+          "computeMatched": true,
+          "total": 626.6524999999999,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 2.7954999999999997
+            },
+            {
+              "label": "Install",
+              "value": 12.64
+            },
+            {
+              "label": "Build",
+              "value": 0
+            },
+            {
+              "label": "Checks",
+              "value": 611.217
+            }
+          ]
+        },
+        {
+          "provider": "modal-vm",
+          "name": "Modal VM",
+          "computeMatched": true,
+          "total": 658.808,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 5.036
+            },
+            {
+              "label": "Install",
+              "value": 17.025
+            },
+            {
+              "label": "Build",
+              "value": 0
+            },
+            {
+              "label": "Checks",
+              "value": 636.747
+            }
+          ]
+        },
+        {
+          "provider": "novita",
+          "name": "Novita",
+          "computeMatched": true,
+          "total": 682.2655,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 4.718500000000001
+            },
+            {
+              "label": "Install",
+              "value": 15.1245
+            },
+            {
+              "label": "Build",
+              "value": 0
+            },
+            {
+              "label": "Checks",
+              "value": 662.4224999999999
+            }
+          ]
+        },
+        {
+          "provider": "vercel",
+          "name": "Vercel",
+          "computeMatched": true,
+          "total": 838.1834999999999,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 3.6100000000000003
+            },
+            {
+              "label": "Install",
+              "value": 18.378500000000003
+            },
+            {
+              "label": "Build",
+              "value": 0
+            },
+            {
+              "label": "Checks",
+              "value": 816.1949999999999
+            }
+          ]
+        },
+        {
+          "provider": "modal-gvisor",
+          "name": "Modal gVisor",
+          "computeMatched": true,
+          "total": 860.6719999999999,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 5.6739999999999995
+            },
+            {
+              "label": "Install",
+              "value": 24.8395
+            },
+            {
+              "label": "Build",
+              "value": 0
+            },
+            {
+              "label": "Checks",
+              "value": 830.1584999999999
+            }
+          ]
+        },
+        {
+          "provider": "runcloud",
+          "name": "run.cloud",
+          "computeMatched": true,
+          "total": 982.3505,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 9.8825
+            },
+            {
+              "label": "Install",
+              "value": 25.404
+            },
+            {
+              "label": "Build",
+              "value": 0
+            },
+            {
+              "label": "Checks",
+              "value": 947.0640000000001
+            }
+          ]
+        },
+        {
+          "provider": "freestyle",
+          "name": "Freestyle",
+          "computeMatched": true,
+          "total": 1138.5815,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 33.582499999999996
+            },
+            {
+              "label": "Install",
+              "value": 46.167
+            },
+            {
+              "label": "Build",
+              "value": 0
+            },
+            {
+              "label": "Checks",
+              "value": 1058.8319999999999
+            }
+          ]
+        },
+        {
+          "provider": "e2b",
+          "name": "E2B",
+          "computeMatched": true,
+          "total": 1163.8455,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 4.97
+            },
+            {
+              "label": "Install",
+              "value": 20.322499999999998
+            },
+            {
+              "label": "Build",
+              "value": 0
+            },
+            {
+              "label": "Checks",
+              "value": 1138.5529999999999
+            }
+          ]
+        },
+        {
+          "provider": "runloop",
+          "name": "Runloop",
+          "computeMatched": true,
+          "total": 1423.7069999999999,
+          "phases": [
+            {
+              "label": "Clone",
+              "value": 8.421
+            },
+            {
+              "label": "Install",
+              "value": 27.901000000000003
+            },
+            {
+              "label": "Build",
+              "value": 0
+            },
+            {
+              "label": "Checks",
+              "value": 1387.3849999999998
+            }
+          ]
+        }
+      ],
+      "complete": true,
+      "rank": 3
+    }
+  ],
+  "metrics": [
+    {
+      "id": "stream_type_copy",
+      "suite": "memory",
+      "label": "STREAM Copy",
+      "value": 53698.6,
+      "unit": "MB/s",
+      "direction": "HIB",
+      "samples": [
+        53602.1,
+        53698.6,
+        53765.35
+      ],
+      "complete": true,
+      "rank": 12,
+      "denominator": 16
+    },
+    {
+      "id": "stream_type_scale",
+      "suite": "memory",
+      "label": "STREAM Scale",
+      "value": 37049,
+      "unit": "MB/s",
+      "direction": "HIB",
+      "samples": [
+        37049,
+        37010.25,
+        37052.8
+      ],
+      "complete": true,
+      "rank": 13,
+      "denominator": 16
+    },
+    {
+      "id": "stream_type_add",
+      "suite": "memory",
+      "label": "STREAM Add",
+      "value": 40690.15,
+      "unit": "MB/s",
+      "direction": "HIB",
+      "samples": [
+        40702.75,
+        40690.15,
+        40662.8
+      ],
+      "complete": true,
+      "rank": 13,
+      "denominator": 16
+    },
+    {
+      "id": "stream_type_triad",
+      "suite": "memory",
+      "label": "STREAM Triad",
+      "value": 40678.75,
+      "unit": "MB/s",
+      "direction": "HIB",
+      "samples": [
+        40678.75,
+        40743.600000000006,
+        40658.2
+      ],
+      "complete": true,
+      "rank": 14,
+      "denominator": 16
+    },
+    {
+      "id": "node_web_tooling_runs_per_s",
+      "suite": "cpu-node",
+      "label": "Node.js web tooling",
+      "value": 24.4,
+      "unit": "runs/s",
+      "direction": "HIB",
+      "samples": [
+        24.27,
+        24.41,
+        24.305,
+        24.475,
+        24.4
+      ],
+      "complete": true,
+      "rank": 4,
+      "denominator": 16
+    },
+    {
+      "id": "fio_type_random_write_engine_linux_aio_direct_yes_block_size_4kb_job_count_1_disk_target_default_test_directory_mb_per_s",
+      "suite": "disk",
+      "label": "fio rand write 4KB, O_DIRECT (MB/s)",
+      "value": 863.502336,
+      "unit": "MB/s",
+      "direction": "HIB",
+      "samples": [
+        864.5509119999999,
+        863.502336,
+        859.83232
+      ],
+      "complete": true,
+      "rank": 5,
+      "denominator": 16
+    },
+    {
+      "id": "fio_type_random_write_engine_linux_aio_direct_yes_block_size_4kb_job_count_1_disk_target_default_test_directory_iops",
+      "suite": "disk",
+      "label": "fio rand write 4KB, O_DIRECT (IOPS)",
+      "value": 210500,
+      "unit": "IOPS",
+      "direction": "HIB",
+      "samples": [
+        211000,
+        210500,
+        210000
+      ],
+      "complete": true,
+      "rank": 5,
+      "denominator": 16
+    },
+    {
+      "id": "fio_type_random_read_engine_linux_aio_direct_yes_block_size_4kb_job_count_1_disk_target_default_test_directory_mb_per_s",
+      "suite": "disk",
+      "label": "fio rand read 4KB, O_DIRECT (MB/s)",
+      "value": 855.113728,
+      "unit": "MB/s",
+      "direction": "HIB",
+      "samples": [
+        855.113728,
+        855.113728,
+        851.9680000000001
+      ],
+      "complete": true,
+      "rank": 7,
+      "denominator": 16
+    },
+    {
+      "id": "fio_type_random_read_engine_linux_aio_direct_yes_block_size_4kb_job_count_1_disk_target_default_test_directory_iops",
+      "suite": "disk",
+      "label": "fio rand read 4KB, O_DIRECT (IOPS)",
+      "value": 208500,
+      "unit": "IOPS",
+      "direction": "HIB",
+      "samples": [
+        208500,
+        209000,
+        208000
+      ],
+      "complete": true,
+      "rank": 7,
+      "denominator": 16
+    },
+    {
+      "id": "hardlink_bogo_ops_per_s",
+      "suite": "disk",
+      "label": "Hardlink throughput",
+      "value": 7.09,
+      "unit": "bogo ops/s",
+      "direction": "HIB",
+      "samples": [
+        7.0600000000000005,
+        7.09,
+        7.09
+      ],
+      "complete": true,
+      "rank": 13,
+      "denominator": 16
+    },
+    {
+      "id": "fio_type_sequential_write_engine_linux_aio_direct_yes_block_size_1mb_job_count_1_disk_target_default_test_directory_mb_per_s",
+      "suite": "disk",
+      "label": "fio seq write 1MB, O_DIRECT (MB/s)",
+      "value": 7697.072128,
+      "unit": "MB/s",
+      "direction": "HIB",
+      "samples": [
+        7671.382016,
+        7697.072128,
+        8782.348288000001
+      ],
+      "complete": true,
+      "rank": 3,
+      "denominator": 16
+    },
+    {
+      "id": "fio_type_sequential_write_engine_linux_aio_direct_yes_block_size_1mb_job_count_1_disk_target_default_test_directory_iops",
+      "suite": "disk",
+      "label": "fio seq write 1MB, O_DIRECT (IOPS)",
+      "value": 7339,
+      "unit": "IOPS",
+      "direction": "HIB",
+      "samples": [
+        7314,
+        7339,
+        8373.5
+      ],
+      "complete": true,
+      "rank": 3,
+      "denominator": 16
+    },
+    {
+      "id": "fio_type_sequential_read_engine_linux_aio_direct_yes_block_size_1mb_job_count_1_disk_target_default_test_directory_mb_per_s",
+      "suite": "disk",
+      "label": "fio seq read 1MB, O_DIRECT (MB/s)",
+      "value": 11319.6924928,
+      "unit": "MB/s",
+      "direction": "HIB",
+      "samples": [
+        11093.2000768,
+        12884.901888,
+        11319.6924928
+      ],
+      "complete": true,
+      "rank": 5,
+      "denominator": 16
+    },
+    {
+      "id": "fio_type_sequential_read_engine_linux_aio_direct_yes_block_size_1mb_job_count_1_disk_target_default_test_directory_iops",
+      "suite": "disk",
+      "label": "fio seq read 1MB, O_DIRECT (IOPS)",
+      "value": 10807.5,
+      "unit": "IOPS",
+      "direction": "HIB",
+      "samples": [
+        10597.5,
+        12300,
+        10807.5
+      ],
+      "complete": true,
+      "rank": 5,
+      "denominator": 16
+    },
+    {
+      "id": "iperf_server_address_localhost_server_port_5201_duration_10_seconds_test_udp_10000mbit_objective_parallel_1",
+      "suite": "network",
+      "label": "iperf3 loopback UDP, 10G objective",
+      "value": 9999,
+      "unit": "Mbits/sec",
+      "direction": "HIB",
+      "samples": [
+        9999,
+        9999,
+        9999
+      ],
+      "complete": true,
+      "rank": 1,
+      "denominator": 15
+    },
+    {
+      "id": "iperf_wan_direction_download",
+      "suite": "network",
+      "label": "iperf3 WAN download",
+      "value": 896.415,
+      "unit": "Mbits/sec",
+      "direction": "HIB",
+      "samples": [
+        269.635,
+        905.015,
+        896.415
+      ],
+      "complete": true,
+      "rank": 15,
+      "denominator": 15
+    },
+    {
+      "id": "iperf_server_address_localhost_server_port_5201_duration_10_seconds_test_tcp_parallel_10",
+      "suite": "network",
+      "label": "iperf3 loopback TCP, 10 streams",
+      "value": 87981.5,
+      "unit": "Mbits/sec",
+      "direction": "HIB",
+      "samples": [
+        87981.5,
+        87849,
+        89725.5
+      ],
+      "complete": true,
+      "rank": 5,
+      "denominator": 15
+    },
+    {
+      "id": "iperf_wan_direction_upload",
+      "suite": "network",
+      "label": "iperf3 WAN upload",
+      "value": 912.665,
+      "unit": "Mbits/sec",
+      "direction": "HIB",
+      "samples": [
+        852.9100000000001,
+        912.665,
+        912.89
+      ],
+      "complete": true,
+      "rank": 14,
+      "denominator": 15
+    },
+    {
+      "id": "iperf_server_address_localhost_server_port_5201_duration_10_seconds_test_tcp_parallel_1",
+      "suite": "network",
+      "label": "iperf3 loopback TCP, 1 stream",
+      "value": 73341.5,
+      "unit": "Mbits/sec",
+      "direction": "HIB",
+      "samples": [
+        73737,
+        73341.5,
+        73255
+      ],
+      "complete": true,
+      "rank": 6,
+      "denominator": 15
+    },
+    {
+      "id": "sqlite_speedtest_seconds",
+      "suite": "system",
+      "label": "SQLite Speedtest",
+      "value": 52.464,
+      "unit": "Seconds",
+      "direction": "LIB",
+      "samples": [
+        52.464,
+        52.4675,
+        52.2415
+      ],
+      "complete": true,
+      "rank": 8,
+      "denominator": 16
+    },
+    {
+      "id": "git_seconds",
+      "suite": "system",
+      "label": "Git common operations",
+      "value": 33.381,
+      "unit": "Seconds",
+      "direction": "LIB",
+      "samples": [
+        33.381,
+        33.348,
+        33.394999999999996
+      ],
+      "complete": true,
+      "rank": 2,
+      "denominator": 16
+    },
+    {
+      "id": "pybench_milliseconds",
+      "suite": "system",
+      "label": "PyBench",
+      "value": 471,
+      "unit": "Milliseconds",
+      "direction": "LIB",
+      "samples": [
+        474.5,
+        471,
+        467.5
+      ],
+      "complete": true,
+      "rank": 6,
+      "denominator": 16
+    },
+    {
+      "id": "pgbench_scaling_factor_100_clients_50_mode_read_only",
+      "suite": "pgbench",
+      "label": "pgbench RO (s100, 50c)",
+      "value": 284802.100297,
+      "unit": "TPS",
+      "direction": "HIB",
+      "samples": [
+        284447.26228150004,
+        285938.6554785,
+        284802.100297
+      ],
+      "complete": true,
+      "rank": 7,
+      "denominator": 16
+    },
+    {
+      "id": "pgbench_scaling_factor_100_clients_50_mode_read_only_average_latency",
+      "suite": "pgbench",
+      "label": "pgbench RO latency (s100, 50c)",
+      "value": 0.1755,
+      "unit": "ms",
+      "direction": "LIB",
+      "samples": [
+        0.176,
+        0.175,
+        0.1755
+      ],
+      "complete": true,
+      "rank": 7,
+      "denominator": 16
+    },
+    {
+      "id": "pgbench_scaling_factor_100_clients_50_mode_read_write",
+      "suite": "pgbench",
+      "label": "pgbench RW (s100, 50c)",
+      "value": 21902.2947595,
+      "unit": "TPS",
+      "direction": "HIB",
+      "samples": [
+        22330.0281885,
+        21819.2655465,
+        21902.2947595
+      ],
+      "complete": true,
+      "rank": 4,
+      "denominator": 16
+    },
+    {
+      "id": "pgbench_scaling_factor_100_clients_50_mode_read_write_average_latency",
+      "suite": "pgbench",
+      "label": "pgbench RW latency (s100, 50c)",
+      "value": 2.2835,
+      "unit": "ms",
+      "direction": "LIB",
+      "samples": [
+        2.2395,
+        2.2915,
+        2.2835
+      ],
+      "complete": true,
+      "rank": 4,
+      "denominator": 16
+    },
+    {
+      "id": "realworld_better_auth_task_git_clone",
+      "suite": "realworld-better-auth",
+      "label": "Better-Auth: git clone",
+      "value": 2.2655000000000003,
+      "unit": "Seconds",
+      "direction": "LIB",
+      "samples": [
+        2.181,
+        2.318,
+        2.137,
+        2.68,
+        2.266,
+        2.442,
+        2.62,
+        2.25,
+        2.201,
+        2.265,
+        2.221,
+        3.308
+      ],
+      "complete": true,
+      "rank": 13,
+      "denominator": 16
+    },
+    {
+      "id": "realworld_better_auth_task_cold_install",
+      "suite": "realworld-better-auth",
+      "label": "Better-Auth: cold install",
+      "value": 12.712,
+      "unit": "Seconds",
+      "direction": "LIB",
+      "samples": [
+        13.788,
+        12.468,
+        12.745,
+        13.077,
+        12.744,
+        12.355,
+        12.629,
+        14.284,
+        12.68,
+        12.543,
+        12.414,
+        13.95
+      ],
+      "complete": true,
+      "rank": 4,
+      "denominator": 16
+    },
+    {
+      "id": "realworld_better_auth_task_build",
+      "suite": "realworld-better-auth",
+      "label": "Better-Auth: build",
+      "value": 50.061,
+      "unit": "Seconds",
+      "direction": "LIB",
+      "samples": [
+        50.273,
+        49.35,
+        49.941,
+        49.406,
+        50.213,
+        50.259,
+        50.019,
+        49.711,
+        50.463,
+        50.362,
+        50.077,
+        50.045
+      ],
+      "complete": true,
+      "rank": 3,
+      "denominator": 16
+    },
+    {
+      "id": "realworld_better_auth_task_lint_biome",
+      "suite": "realworld-better-auth",
+      "label": "Better-Auth: lint (Biome)",
+      "value": 2.7095000000000002,
+      "unit": "Seconds",
+      "direction": "LIB",
+      "samples": [
+        2.719,
+        2.755,
+        2.7,
+        2.739,
+        2.684,
+        2.758,
+        2.755,
+        2.647,
+        2.69,
+        2.69,
+        2.773,
+        2.627
+      ],
+      "complete": true,
+      "rank": 4,
+      "denominator": 16
+    },
+    {
+      "id": "realworld_better_auth_task_lint_deps_knip",
+      "suite": "realworld-better-auth",
+      "label": "Better-Auth: lint deps (Knip)",
+      "value": 8.864,
+      "unit": "Seconds",
+      "direction": "LIB",
+      "samples": [
+        8.934,
+        8.854,
+        8.841,
+        8.771,
+        8.907,
+        8.857,
+        8.781,
+        8.919,
+        8.914,
+        8.871,
+        8.896,
+        8.785
+      ],
+      "complete": true,
+      "rank": 3,
+      "denominator": 16
+    },
+    {
+      "id": "realworld_better_auth_task_lint_format",
+      "suite": "realworld-better-auth",
+      "label": "Better-Auth: lint format",
+      "value": 2.492,
+      "unit": "Seconds",
+      "direction": "LIB",
+      "samples": [
+        2.447,
+        2.42,
+        2.481,
+        2.432,
+        2.503,
+        2.479,
+        2.54,
+        2.441,
+        2.506,
+        2.558,
+        2.521,
+        2.511
+      ],
+      "complete": true,
+      "rank": 4,
+      "denominator": 16
+    },
+    {
+      "id": "realworld_better_auth_task_lint_spell",
+      "suite": "realworld-better-auth",
+      "label": "Better-Auth: lint spell",
+      "value": 5.997,
+      "unit": "Seconds",
+      "direction": "LIB",
+      "samples": [
+        6.018,
+        5.955,
+        6.018,
+        5.931,
+        5.985,
+        6.032,
+        5.95,
+        5.932,
+        6.02,
+        6.054,
+        5.941,
+        6.009
+      ],
+      "complete": true,
+      "rank": 3,
+      "denominator": 16
+    },
+    {
+      "id": "realworld_better_auth_task_lint_types",
+      "suite": "realworld-better-auth",
+      "label": "Better-Auth: lint types",
+      "value": 26.180500000000002,
+      "unit": "Seconds",
+      "direction": "LIB",
+      "samples": [
+        25.842,
+        25.99,
+        26.174,
+        26.509,
+        26.187,
+        26.126,
+        26.536,
+        26.444,
+        27.175,
+        26.707,
+        25.885,
+        26.087
+      ],
+      "complete": true,
+      "rank": 4,
+      "denominator": 16
+    },
+    {
+      "id": "realworld_better_auth_task_lint_packages",
+      "suite": "realworld-better-auth",
+      "label": "Better-Auth: lint packages",
+      "value": 2.2649999999999997,
+      "unit": "Seconds",
+      "direction": "LIB",
+      "samples": [
+        2.258,
+        2.244,
+        2.292,
+        2.233,
+        2.294,
+        2.272,
+        2.249,
+        2.235,
+        2.286,
+        2.284,
+        2.283,
+        2.211
+      ],
+      "complete": true,
+      "rank": 3,
+      "denominator": 16
+    },
+    {
+      "id": "realworld_better_auth_task_typecheck",
+      "suite": "realworld-better-auth",
+      "label": "Better-Auth: typecheck",
+      "value": 34.102999999999994,
+      "unit": "Seconds",
+      "direction": "LIB",
+      "samples": [
+        33.972,
+        33.837,
+        35.508,
+        33.45,
+        33.874,
+        34.291,
+        34.04,
+        34.359,
+        33.624,
+        34.287,
+        34.166,
+        34.42
+      ],
+      "complete": true,
+      "rank": 4,
+      "denominator": 16
+    },
+    {
+      "id": "realworld_mastra_task_git_clone",
+      "suite": "realworld-mastra",
+      "label": "Mastra: git clone",
+      "value": 5.1065000000000005,
+      "unit": "Seconds",
+      "direction": "LIB",
+      "samples": [
+        5.071,
+        4.761,
+        4.789,
+        5.074,
+        5.139,
+        6.416,
+        5.814,
+        5.754,
+        6.333,
+        5.189,
+        4.921,
+        4.852
+      ],
+      "complete": true,
+      "rank": 13,
+      "denominator": 16
+    },
+    {
+      "id": "realworld_mastra_task_cold_install",
+      "suite": "realworld-mastra",
+      "label": "Mastra: cold install",
+      "value": 37.715,
+      "unit": "Seconds",
+      "direction": "LIB",
+      "samples": [
+        37.359,
+        37.902,
+        37.564,
+        37.592,
+        37.643,
+        37.727,
+        37.703,
+        37.851,
+        37.941,
+        37.238,
+        38.107,
+        39.23
+      ],
+      "complete": true,
+      "rank": 2,
+      "denominator": 16
+    },
+    {
+      "id": "realworld_mastra_task_lint_format",
+      "suite": "realworld-mastra",
+      "label": "Mastra: lint:format",
+      "value": 75.509,
+      "unit": "Seconds",
+      "direction": "LIB",
+      "samples": [
+        74.826,
+        76.709,
+        75.267,
+        74.784,
+        76.354,
+        75.719,
+        75.383,
+        76.361,
+        75.749,
+        74.711,
+        74.834,
+        75.635
+      ],
+      "complete": true,
+      "rank": 3,
+      "denominator": 16
+    },
+    {
+      "id": "realworld_mastra_task_build_core",
+      "suite": "realworld-mastra",
+      "label": "Mastra: build:core",
+      "value": 63.0215,
+      "unit": "Seconds",
+      "direction": "LIB",
+      "samples": [
+        62.863,
+        63.069,
+        64.04,
+        62.812,
+        63.286,
+        63.347,
+        62.912,
+        62.914,
+        62.974,
+        63.236,
+        62.806,
+        63.085
+      ],
+      "complete": true,
+      "rank": 4,
+      "denominator": 16
+    },
+    {
+      "id": "realworld_mastra_task_test_core",
+      "suite": "realworld-mastra",
+      "label": "Mastra: test:core",
+      "value": 886.2185,
+      "unit": "Seconds",
+      "direction": "LIB",
+      "samples": [
+        885.466,
+        891.965,
+        888.818,
+        884.916,
+        889.057,
+        886.08,
+        886.083,
+        882.062,
+        886.354,
+        889.324,
+        886.76,
+        883.38
+      ],
+      "complete": true,
+      "rank": 4,
+      "denominator": 16
+    },
+    {
+      "id": "realworld_openclaw_task_git_clone",
+      "suite": "realworld-openclaw",
+      "label": "OpenClaw: git clone",
+      "value": 9.307500000000001,
+      "unit": "Seconds",
+      "direction": "LIB",
+      "samples": [
+        9.085,
+        9.628,
+        9.668,
+        11.764,
+        9.76,
+        9.331,
+        9.252,
+        8.951,
+        8.943,
+        9.778,
+        9.213,
+        9.284
+      ],
+      "complete": true,
+      "rank": 13,
+      "denominator": 15
+    },
+    {
+      "id": "realworld_openclaw_task_cold_install",
+      "suite": "realworld-openclaw",
+      "label": "OpenClaw: cold install",
+      "value": 17.553,
+      "unit": "Seconds",
+      "direction": "LIB",
+      "samples": [
+        17.644,
+        17.53,
+        16.844,
+        17.237,
+        17.576,
+        18.135,
+        17.613,
+        17.453,
+        17.681,
+        17.802,
+        17.26,
+        17.502
+      ],
+      "complete": true,
+      "rank": 8,
+      "denominator": 15
+    },
+    {
+      "id": "realworld_openclaw_task_lint_oxlint",
+      "suite": "realworld-openclaw",
+      "label": "OpenClaw: lint (Oxlint)",
+      "value": 234.06599999999997,
+      "unit": "Seconds",
+      "direction": "LIB",
+      "samples": [
+        234.714,
+        235.214,
+        230.612,
+        236.326,
+        229.907,
+        234.176,
+        231.915,
+        232.624,
+        237.375,
+        233.956,
+        234.438,
+        231.993
+      ],
+      "complete": true,
+      "rank": 3,
+      "denominator": 15
+    },
+    {
+      "id": "realworld_openclaw_task_lint_extensions_all",
+      "suite": "realworld-openclaw",
+      "label": "OpenClaw: lint (all extensions)",
+      "value": 124.3865,
+      "unit": "Seconds",
+      "direction": "LIB",
+      "samples": [
+        124.445,
+        123.926,
+        123.56,
+        124.328,
+        123.029,
+        123.781,
+        124.886,
+        126.776,
+        125.202,
+        125.879,
+        122.938,
+        125.463
+      ],
+      "complete": true,
+      "rank": 3,
+      "denominator": 15
+    },
+    {
+      "id": "realworld_openclaw_task_typecheck",
+      "suite": "realworld-openclaw",
+      "label": "OpenClaw: typecheck (tsgo)",
+      "value": 14.865,
+      "unit": "Seconds",
+      "direction": "LIB",
+      "samples": [
+        15.278,
+        15.199,
+        14.685,
+        14.877,
+        14.958,
+        14.853,
+        15.57,
+        14.808,
+        14.77,
+        14.813,
+        14.247,
+        15.043
+      ],
+      "complete": true,
+      "rank": 3,
+      "denominator": 15
+    },
+    {
+      "id": "realworld_openclaw_task_test_types",
+      "suite": "realworld-openclaw",
+      "label": "OpenClaw: typecheck (test tree)",
+      "value": 85.31800000000001,
+      "unit": "Seconds",
+      "direction": "LIB",
+      "samples": [
+        84.632,
+        88.777,
+        83.179,
+        84.605,
+        86.004,
+        87.388,
+        84.521,
+        87.313,
+        82.244,
+        84.53,
+        87.27,
+        86.424
+      ],
+      "complete": true,
+      "rank": 3,
+      "denominator": 15
+    },
+    {
+      "id": "network_https_github_com_total_ms",
+      "suite": "network",
+      "label": "github.com HTTPS",
+      "value": 197.9815,
+      "unit": "ms",
+      "direction": "LIB",
+      "samples": [
+        197.19,
+        198.01049999999998,
+        197.9815
+      ],
+      "complete": true,
+      "rank": 12,
+      "denominator": 15
+    },
+    {
+      "id": "network_https_api_github_com_total_ms",
+      "suite": "network",
+      "label": "api.github.com HTTPS",
+      "value": 80.6265,
+      "unit": "ms",
+      "direction": "LIB",
+      "samples": [
+        86.584,
+        78.85849999999999,
+        80.6265
+      ],
+      "complete": true,
+      "rank": 12,
+      "denominator": 15
+    },
+    {
+      "id": "network_https_raw_githubusercontent_com_total_ms",
+      "suite": "network",
+      "label": "raw.githubusercontent.com HTTPS",
+      "value": 23.5925,
+      "unit": "ms",
+      "direction": "LIB",
+      "samples": [
+        23.554000000000002,
+        23.5925,
+        23.609
+      ],
+      "complete": true,
+      "rank": 6,
+      "denominator": 15
+    },
+    {
+      "id": "network_https_registry_npmjs_org_total_ms",
+      "suite": "network",
+      "label": "registry.npmjs.org HTTPS",
+      "value": 25.385,
+      "unit": "ms",
+      "direction": "LIB",
+      "samples": [
+        25.385,
+        26.148,
+        25.1295
+      ],
+      "complete": true,
+      "rank": 4,
+      "denominator": 15
+    },
+    {
+      "id": "network_https_pypi_org_total_ms",
+      "suite": "network",
+      "label": "pypi.org HTTPS",
+      "value": 26.0135,
+      "unit": "ms",
+      "direction": "LIB",
+      "samples": [
+        26.0135,
+        26.253999999999998,
+        25.964
+      ],
+      "complete": true,
+      "rank": 8,
+      "denominator": 15
+    },
+    {
+      "id": "network_https_files_pythonhosted_org_total_ms",
+      "suite": "network",
+      "label": "files.pythonhosted.org HTTPS",
+      "value": 27.1995,
+      "unit": "ms",
+      "direction": "LIB",
+      "samples": [
+        26.583,
+        28.223,
+        27.1995
+      ],
+      "complete": true,
+      "rank": 8,
+      "denominator": 15
+    },
+    {
+      "id": "network_https_ghcr_io_v2_total_ms",
+      "suite": "network",
+      "label": "ghcr.io/v2 HTTPS",
+      "value": 181.75799999999998,
+      "unit": "ms",
+      "direction": "LIB",
+      "samples": [
+        179.04000000000002,
+        181.75799999999998,
+        186.53
+      ],
+      "complete": true,
+      "rank": 14,
+      "denominator": 15
+    },
+    {
+      "id": "network_https_gcr_io_v2_total_ms",
+      "suite": "network",
+      "label": "gcr.io/v2 HTTPS",
+      "value": 130.3245,
+      "unit": "ms",
+      "direction": "LIB",
+      "samples": [
+        130.3245,
+        129.66750000000002,
+        131.418
+      ],
+      "complete": true,
+      "rank": 11,
+      "denominator": 15
+    },
+    {
+      "id": "network_https_auth_docker_io_registry_token_total_ms",
+      "suite": "network",
+      "label": "auth.docker.io token HTTPS",
+      "value": 150.99,
+      "unit": "ms",
+      "direction": "LIB",
+      "samples": [
+        147.468,
+        150.99,
+        152.9385
+      ],
+      "complete": true,
+      "rank": 14,
+      "denominator": 15
+    },
+    {
+      "id": "network_https_crates_io_total_ms",
+      "suite": "network",
+      "label": "crates.io HTTPS",
+      "value": 30.0775,
+      "unit": "ms",
+      "direction": "LIB",
+      "samples": [
+        30.4055,
+        30.069,
+        30.0775
+      ],
+      "complete": true,
+      "rank": 8,
+      "denominator": 15
+    },
+    {
+      "id": "network_https_index_crates_io_config_total_ms",
+      "suite": "network",
+      "label": "index.crates.io config HTTPS",
+      "value": 33.885,
+      "unit": "ms",
+      "direction": "LIB",
+      "samples": [
+        28.168,
+        38.6325,
+        33.885
+      ],
+      "complete": true,
+      "rank": 11,
+      "denominator": 15
+    },
+    {
+      "id": "network_dns_cold_github_com_ms",
+      "suite": "network",
+      "label": "github.com cold DNS",
+      "value": 44,
+      "unit": "ms",
+      "direction": "LIB",
+      "samples": [
+        16,
+        52,
+        44
+      ],
+      "complete": true,
+      "rank": 15,
+      "denominator": 15
+    },
+    {
+      "id": "network_dns_cold_registry_npmjs_org_ms",
+      "suite": "network",
+      "label": "registry.npmjs.org cold DNS",
+      "value": 16,
+      "unit": "ms",
+      "direction": "LIB",
+      "samples": [
+        16,
+        16,
+        16
+      ],
+      "complete": true,
+      "rank": 13,
+      "denominator": 15
+    },
+    {
+      "id": "network_dns_cold_docker_io_ms",
+      "suite": "network",
+      "label": "docker.io cold DNS",
+      "value": 56,
+      "unit": "ms",
+      "direction": "LIB",
+      "samples": [
+        56,
+        92,
+        52
+      ],
+      "complete": true,
+      "rank": 15,
+      "denominator": 15
+    },
+    {
+      "id": "network_dns_cold_pypi_org_ms",
+      "suite": "network",
+      "label": "pypi.org cold DNS",
+      "value": 68,
+      "unit": "ms",
+      "direction": "LIB",
+      "samples": [
+        328,
+        68,
+        68
+      ],
+      "complete": true,
+      "rank": 15,
+      "denominator": 15
+    },
+    {
+      "id": "network_dns_cold_rubygems_org_ms",
+      "suite": "network",
+      "label": "rubygems.org cold DNS",
+      "value": 92,
+      "unit": "ms",
+      "direction": "LIB",
+      "samples": [
+        132,
+        92,
+        92
+      ],
+      "complete": true,
+      "rank": 13,
+      "denominator": 15
+    },
+    {
+      "id": "network_download_node_v22_23_1_linux_x64_mbits_per_sec",
+      "suite": "network",
+      "label": "Node 22 download",
+      "value": 675.297944,
+      "unit": "Mbits/sec",
+      "direction": "HIB",
+      "samples": [
+        675.297944,
+        627.000976,
+        864.16836
+      ],
+      "complete": true,
+      "rank": 15,
+      "denominator": 15
+    }
+  ],
+  "method": {
+    "vcpus": 4,
+    "memoryGiB": 8,
+    "observedRootDisk": "approximately 36 GiB",
+    "freeDiskGiB": 31.6,
+    "concurrency": 1,
+    "host": "Dedicated host",
+    "hourlyUsd": 0.02,
+    "priceSource": "https://workpaper.co/llms.txt",
+    "priceNote": "Pro costs $15/month, returned as usage credit. Published large plan has 20 GB disk; benchmark uses a larger dedicated allocation."
+  }
+}
